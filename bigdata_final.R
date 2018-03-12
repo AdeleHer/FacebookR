@@ -1,5 +1,5 @@
 require("Rfacebook")
-fb_oauth = fbOAuth (app_id = "122464385012526",app_secret = "d01c9521bd7208fd963e395ce55c9bdb" )
+fb_oauth = fbOAuth (app_id = "your app_id",app_secret = "your app_secret" )
 
 ### data crawler and get useful data ###
 celebrities <- read.csv("./FBcrawler/fb_celebrity.csv")
